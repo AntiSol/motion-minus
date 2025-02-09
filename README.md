@@ -86,7 +86,7 @@ TL;DR, motion-minus is just like motion, minus:
  - incompatibility with your existing motion setup.
  - Arrogant maintainers who dislike being questioned and can't be bothered engaging with their community..
 
-TL;DR of the TL;DR is: if you were using motion, and it broke due to Mr Disk's laziness and stupidity, 
+TL;DR of the TL;DR is: if you were using motion, and it broke due to Mr Dick's laziness and stupidity, 
 motion minus is your cure.
 
 `* it might be interesting to find out by asking Mr Dick, but Mr Dick doesn't like it when you ask questions.`
