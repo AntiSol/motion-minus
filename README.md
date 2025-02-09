@@ -8,7 +8,7 @@ It did motion detection, and it worked well, and everything was fine and good
 for a very long time.
 
 Eventually, the original author of motion moved on, and somebody who was
-......let's go with"less focused"..... took his place. 
+......let's go with "less focused"..... took his place. 
 
 Let's give this person a pseudonym: "Mr Dick"
 
@@ -21,8 +21,8 @@ started doing was removing features from this "new and improved" version.
 Mr Dick worked hard and diligently, doing important work like porting from C
 to C++ [(C is such a non-shiny language, you see)](https://web.archive.org/web/20131209133259/http://thread.gmane.org/gmane.comp.version-control.git/57643/focus=57918), making the code run slower,
 removing old features that he assumed people weren't using, 
-and removing features peopl were using but which he couldn't be bothered to 
-maintain/repimplement (or maybe didn't understand / couldn't figure out how to port to C++?).
+and removing features people *were* using, but which he couldn't be bothered to 
+maintain/repimplement (or maybe didn't understand / couldn't figure out how to port to C++?*).
 
 Sure, nobody was using it, because people want their security cameras to be 
 reliable and stable long-term, and because people tend to want their "upgraded"
@@ -55,8 +55,8 @@ into the master branch without warning or duscussion.
 
 To clarify, by "55% yes", that means "55% of 40 people", i.e the 10% margin in the vote 
 was 4 people. To call this anything close to concensus would be disingenuous at best.
-(These 4 people were definitely not sockpuppet accounts created by Mr Dick, and any
-suggestion otherwise would be unfounded speculation)
+*(Note: These 4 people were definitely not sockpuppet accounts created by Mr Dick, and any
+suggestion otherwise would just be unfounded speculation)*
 
 When questioned as to why he didn't bother to respond or discuss with the community,
 [Mr Dick invented fictional excues why he hadn't responded to suggestions and engaged in discustion](https://github.com/Motion-Project/motion/discussions/1794#discussioncomment-12086359). 
@@ -79,7 +79,7 @@ Thus, this project was created, forking off the "old", reliable, useful branch, 
 new shiny awfulness, so that people using motion could continue to use motion-minus,
 without the hassle of wasting their time going through the massive list of removed features,
  or messing around renaming config files and the options therein because Mr Dick couldn't be 
-bothered to maintain compatibility.
+bothered to maintain compatibility or to even document the changes he'd made.
 
 TL;DR, motion-minus is just like motion, minus:
  - Shiny CADT vanity projects that lack feature parity with the version you've been using for decades.
@@ -89,11 +89,21 @@ TL;DR, motion-minus is just like motion, minus:
 TL;DR of the TL;DR is: if you were using motion, and it broke due to Mr Disk's laziness and stupidity, 
 motion minus is your cure.
 
+`* it might be interesting to find out by asking Mr Dick, but Mr Dick doesn't like it when you ask questions.`
+
+### Why are peope like this?
+
+Yeah, I don't understand it either. Some people are just assholes :shrug:
+
 ## Roadmap / Future
 
 So, what does the future hold for motion-minus?
 
-The new maintainer doesn't have a huge amount of free time, so motion-minus will probably not have many 
+Maybe not very much? And that's totally fine!
+
+Some software doesn't really need improving, and is fine with only minor changes to keep it compiling on current systems. Not everything has to be shiny and new - "old" doesn't mean bad. In fact, it can often mean somee positive things, e.g "reliable" and "efficient".
+
+The new maintainer doesn't have a huge amount of free time, so motion-minus will almost certainly not have many 
 new features added unless they're contributed by the community. Patches are very welcome, however.
 
 Some older features/hardware may be deprecated and removed over time, but only after taking 
